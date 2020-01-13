@@ -21,19 +21,11 @@ plugins:
 authors:
     geoff:
       name:           Geoff Whiting
-      site:           https://www.example.net
-      avatar:         /assets/images/avatar1.jpg
+      site:           https://www.ghiting.net
+      avatar:         /assets/images/geoff-avatar.jpg
       bio:            "Hi, I am Geoff Whiting, a writer and content marketer in Washington DC."
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
-      name:           Jane
-      site:           https://www.example.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/fakename
+      email:          geoff@gwhiting.com
+      twitter:        https://twitter.com/
 
 # Defaults
 defaults:
@@ -43,8 +35,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: geoff
+      avatar: /assets/images/geoff-avatar.jpg
 
   # all pages
   - scope:

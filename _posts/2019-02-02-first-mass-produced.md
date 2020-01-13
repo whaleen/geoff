@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Does Your Business Want AI or RPA?"
-author: Geoff
+author: geoff
 categories: [ AI, RPA, SMB ]
 image: assets/images/17.jpg
 tags: [featured]
