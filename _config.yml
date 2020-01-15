@@ -3,9 +3,10 @@ name: 'Geoff Whiting'
 description: 'This is the home of Geoff Whiting, a Washington DC writer and content marketer.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-#url: 'http://127.0.0.1:4000'
-url: 'https://whaleen.github.io/geoff/'
-baseurl: 'https://whaleen.github.io/geoff/'
+url: 'http://127.0.0.1:4000'
+baseurl: ''
+# url: 'https://whaleen.github.io/geoff/'
+# baseurl: 'https://whaleen.github.io/geoff/'
 disqus: 'demowebsite'
 email: 'example@example.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,6 +20,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-category-pages
 
 authors:
     geoff:
