@@ -6,7 +6,6 @@ categories:
   - Dude
 image: /uploads/apu-and-dog.png
 tags:
-  - sticky
 ---
 
 This is the article body.
