@@ -1,12 +1,12 @@
 ---
-post: post
-author: Geoff
+post:
+author: geoff
 title: Support for Forestry.io and GitHub Pages
 categories:
-- Dude
-image: <p><img src="/uploads/3e67d66e90016ae_300300.gif"></p>
+  - Dude
+image: /uploads/apu-and-dog.png
 tags:
-- test
-
+  - sticky
 ---
+
 This is the article body.
