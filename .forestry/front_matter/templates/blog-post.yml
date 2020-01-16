@@ -30,3 +30,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- _posts/support-for-forestry-io-and-github-pages.md
