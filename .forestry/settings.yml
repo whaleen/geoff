@@ -9,9 +9,6 @@ sections:
   label: Assets
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: jekyll-posts
   label: Posts
   create: all
