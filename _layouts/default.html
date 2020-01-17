@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{page.title}} | {{site.name}}</title>
 
+    <!-- Netlify CMS: https://www.netlifycms.org/docs/jekyll/ -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     {% seo %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
@@ -88,6 +91,19 @@
     </footer>
 
     {% include tracking-footer.html %}
+
+<!-- Netlify CMS: Redirects logged in user to /admin path -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </body>
 
