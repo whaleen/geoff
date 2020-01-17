@@ -6,6 +6,7 @@ backend:
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
+    create: true # Allow users to create new documents in this collection
     label: 'Blog'
     folder: '_posts/'
     fields:
