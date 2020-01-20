@@ -1,5 +1,5 @@
 ---
-language: en
+type: project
 title: Dude
 ---
 test
