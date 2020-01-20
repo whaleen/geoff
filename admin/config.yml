@@ -4,6 +4,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
+
+# Collections  with Netlify Settings
 collections:
   - name: 'blog'
     create: true # Allow users to create new documents in this collection
@@ -16,3 +18,19 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Blog in English"
+    name: "english_posts"
+    folder: "_posts"
+    filter: {field: "language", value: "en"}
+    fields:
+      - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - label: "Blog en Español"
+    name: "spanish_posts"
+    folder: "_posts"
+    filter: {field: "language", value: "es"}
+    fields:
+      - {label: "Lenguaje", name: "language", widget: "select", options: ["en", "es"]}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Contenido", name: "body", widget: "markdown"}
