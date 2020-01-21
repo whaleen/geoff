@@ -3,7 +3,7 @@ post: post
 author: geoff
 title: Get A Complete Cloud WMS Buyers' Guide On EXPLOREWMS
 categories: []
-featured_image: "/uploads/sunlight-shining-down-on-valley.jpg"
+featured_image: ''
 section: ''
 
 ---
