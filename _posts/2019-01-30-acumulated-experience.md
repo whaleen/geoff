@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title: Accumulated experience of social living
 author: Geoff

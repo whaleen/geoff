@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Does Your Business Want AI or RPA?"
 author: geoff

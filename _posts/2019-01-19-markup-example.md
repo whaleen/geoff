@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Markdown Example"
 author: Geoff

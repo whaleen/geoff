@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Is Intelligence Enough"
 author: geoff

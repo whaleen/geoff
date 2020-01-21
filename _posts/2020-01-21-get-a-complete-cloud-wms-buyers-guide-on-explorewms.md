@@ -1,4 +1,5 @@
 ---
+section: Blog
 post: post
 author: geoff
 title: Get A Complete Cloud WMS Buyers' Guide On EXPLOREWMS

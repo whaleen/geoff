@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Red Riding Hood"
 author: Geoff

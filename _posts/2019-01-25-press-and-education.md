@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Press and education"
 author: Geoff

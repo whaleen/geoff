@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Three Lessons For Meaningful Brand Storytelling"
 author: geoff

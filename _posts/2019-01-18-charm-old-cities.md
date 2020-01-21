@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  Writer. Copy Editor. Digital Publications Specialist. Content Marketer
 author: Geoff

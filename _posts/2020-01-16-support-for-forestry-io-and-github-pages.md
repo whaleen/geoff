@@ -1,4 +1,5 @@
 ---
+section: Blog
 post:
 author: geoff
 title: Support for Forestry.io and GitHub Pages

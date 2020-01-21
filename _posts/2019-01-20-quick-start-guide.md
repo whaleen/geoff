@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "Quick Start Guide"
 author: Geoff

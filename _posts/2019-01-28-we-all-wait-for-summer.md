@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "We all wait for summer"
 author: Geoff

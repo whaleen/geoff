@@ -1,4 +1,5 @@
 ---
+section: Blog
 layout: post
 title:  "What is Jekyll"
 author: geoff
