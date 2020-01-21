@@ -1,34 +1,48 @@
 ---
-label: Blog post
+label: Post
 hide_body: false
 fields:
+- name: section
+  type: select
+  default: Blog
+  config:
+    required: false
+    options:
+    - Blog
+    - " Project"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Section
+  description: Choose whether this is a blog or project post.
 - type: text
   name: title
   label: title
-- type: text
-  name: post
-  label: post
-  hidden: true
-  default: post
-- type: text
-  name: author
-  label: author
-  hidden: true
-  default: Geoff
+- name: pdf
+  type: file
+  config:
+    maxSize: 250
+  label: PDF
+  description: Upload PDF for project posts.
+  showOnly:
+    field: section
+    value: " Project"
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
 - type: list
   name: categories
   label: categories
   config:
     use_select: false
-- type: textarea
-  name: image
-  label: image
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
-- type: list
-  name: tags
-  label: tags
+- type: text
+  name: author
+  label: author
+  hidden: true
+  default: Geoff
 pages:
-- _posts/executive-lessons-on-modern-text-analytics.md
+- _posts/get-a-complete-cloud-wms-buyers-guide-on-explorewms.md
