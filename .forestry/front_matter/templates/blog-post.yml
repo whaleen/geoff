@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - name: section
   type: select
-  default: ''
+  default: Blog
   config:
     required: false
-    options: []
+    options:
+    - Blog
+    - " Project"
     source:
       type: simple
       section: 
