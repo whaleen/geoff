@@ -44,5 +44,3 @@ fields:
   label: author
   hidden: true
   default: Geoff
-pages:
-- _posts/get-a-complete-cloud-wms-buyers-guide-on-explorewms.md
