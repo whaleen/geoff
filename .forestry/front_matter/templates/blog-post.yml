@@ -33,7 +33,7 @@ fields:
   type: file
   config:
     maxSize: 250
-  label: Featured Image
+  label: Image
 - type: list
   name: categories
   label: categories
