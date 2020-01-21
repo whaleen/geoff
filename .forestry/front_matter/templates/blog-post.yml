@@ -1,15 +1,23 @@
 ---
-label: Blog post
+label: Post
 hide_body: false
 fields:
+- name: section
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Section
+  description: Choose whether this is a blog or project post.
 - type: text
   name: title
   label: title
-- type: text
-  name: post
-  label: post
-  hidden: true
-  default: post
 - type: text
   name: author
   label: author
