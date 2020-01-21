@@ -1,11 +1,16 @@
 ---
 section: Blog
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title: Powerful things you can do with the Markdown editor
 author: Geoff
-categories: [ Jekyll, tutorial ]
+categories:
+- Jekyll
+- tutorial
 image: assets/images/4.jpg
-tags: [featured]
+tags:
+- featured
+pdf: ''
+
 ---
 There are lots of powerful things you can do with the Markdown editor
 
