@@ -18,8 +18,8 @@ sections:
 - type: document
   path: _data/welcome.yml
   label: Welcome Block
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: assets/images
+public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
