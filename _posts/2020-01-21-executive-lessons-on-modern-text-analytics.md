@@ -4,7 +4,7 @@ author: Geoff
 title: Executive Lessons on Modern Text Analytics
 categories:
 - analytics
-image: "<p></p>"
+image: <p><img src="/uploads/3e67d66e90016ae_300300.gif"></p>
 tags: []
 
 ---
