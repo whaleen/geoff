@@ -1,12 +1,13 @@
 ---
 section: Blog
 layout: post
-title:  "Quick Start Guide"
+title: Quick Start Guide
 author: Geoff
-categories: [ Jekyll, tutorial ]
+categories:
+- Jekyll
 image: assets/images/12.jpg
----
 
+---
 If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:
 
 ```ruby
