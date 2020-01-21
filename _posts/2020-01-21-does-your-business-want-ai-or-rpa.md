@@ -1,6 +1,6 @@
 ---
 section: Blog
-author: Geoff
+author: geoff
 title: Does Your Business Want AI or RPA
 pdf: ''
 featured_image: "/uploads/blog new post.jpg"

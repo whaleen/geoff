@@ -3,7 +3,6 @@ layout: post
 title:  "Three Lessons For Meaningful Brand Storytelling"
 author: geoff
 categories: [ Content-Development ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 tags: [summer]
 ---
 Kings of coffee shops, queens of the stage, and jokers everywhere are keepers of an often undervalued business skill: storytelling. They use storytelling to keep their audience engaged and coming back for more.

@@ -4,7 +4,7 @@ author: geoff
 title: Support for Forestry.io and GitHub Pages
 categories:
   - Dude
-image: /uploads/apu-and-dog.png
+image:
 tags:
 ---
 

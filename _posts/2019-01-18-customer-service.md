@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Jekyll"
-author: Geoff
+author: geoff
 categories: [ Jekyll, tutorial ]
 image: assets/images/11.jpg
 section: projects
