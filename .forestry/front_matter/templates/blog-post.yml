@@ -29,7 +29,7 @@ fields:
   showOnly:
     field: section
     value: " Project"
-- name: featured_image
+- name: image
   type: file
   config:
     maxSize: 250
