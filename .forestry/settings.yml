@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Test
   create: none
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
