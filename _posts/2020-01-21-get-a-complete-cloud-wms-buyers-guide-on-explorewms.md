@@ -1,9 +1,10 @@
 ---
 post: post
 author: Geoff
-title: GET A COMPLETE CLOUD WMS BUYERS' GUIDE ON EXPLOREWMS
+title: Get A Complete Cloud WMS Buyers' Guide On EXPLOREWMS
 categories: []
 featured_image: "/uploads/sunlight-shining-down-on-valley.jpg"
+section: ''
 
 ---
 Every aspect of our daily lives has moved to the cloud, and your warehouse’s functionality is following the same track.
