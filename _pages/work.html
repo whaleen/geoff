@@ -11,18 +11,12 @@ permalink: "/work.html"
 <div class="container">
 <h3 class="font-weight-bold spanborder"><span>{{page.title | capitalize }}</span></h3>
 
-{% assign sorted-posts = site.posts | where: "section","projects" %}
-{% for post in sorted-posts limit: 5 %}
-  <li>{{post.title}}</li>
+
+
+{% for category in site.categories %}
+<li><a href ="{{site.baseurl}}/blog/categories.html#{{category | first}}">{{ category | first | remove : 'blog' }}</a></li>
 {% endfor %}
 
-{% assign items_grouped = site.posts | where: "section","projects" | group_by: 'categories' %}
-  {% for group in items_grouped %}
-    <h3>{{group.name}}</h3>
-    {% for item in group.items %}
-        <p>{{item.title}}</p>
-    {% endfor %}
-  {% endfor %}
 
 
 </div>
