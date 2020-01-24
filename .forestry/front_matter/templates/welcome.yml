@@ -1,0 +1,16 @@
+---
+label: Welcome
+hide_body: true
+fields:
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: paragraph
+  label: paragraph
+- type: text
+  name: button_text
+  label: button_text
+- type: text
+  name: featured_image
+  label: featured_image
