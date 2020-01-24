@@ -45,4 +45,5 @@ fields:
   hidden: true
   default: Geoff
 pages:
+- _posts/telegram-open-network-ton-white-paper.md
 - _posts/turn-hurdles-into-opportunities-by-understanding-the-rpa-challenges-facing-smbs.md
