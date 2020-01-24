@@ -4,6 +4,7 @@ post: post
 author: geoff
 title: Executive Lessons on Modern Text Analytics
 categories:
+- White-Paper
 - Executive-Paper
 - Analytics
 tags: []
