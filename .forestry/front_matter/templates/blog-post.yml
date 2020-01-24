@@ -44,3 +44,5 @@ fields:
   label: author
   hidden: true
   default: geoff
+pages:
+- _posts/maximising-upsells-through-personalisation.md
