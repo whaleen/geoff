@@ -14,7 +14,7 @@ permalink: "/work.html"
 
 
 {% for category in site.categories %}
-<li><a href ="{{site.baseurl}}/blog/categories.html#{{category | first}}">{{ category | first | remove : 'blog' }}</a></li>
+<li><a href ="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' }}</a></li>
 {% endfor %}
 
 

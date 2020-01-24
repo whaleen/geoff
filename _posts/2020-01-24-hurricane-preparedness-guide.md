@@ -1,7 +1,6 @@
 ---
 section: " Project"
 author: geoff
-date: 
 title: Hurricane Preparedness Guide
 pdf: "/assets/images/1 - 2014 Hurricane Preparedness Guide.pdf"
 image: ''
