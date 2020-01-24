@@ -13,7 +13,7 @@ fields:
     display_utc: false
 - name: section
   type: select
-  default: Blog
+  default: " Project"
   config:
     required: false
     options:
