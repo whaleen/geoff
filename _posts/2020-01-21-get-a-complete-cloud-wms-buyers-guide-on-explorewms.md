@@ -2,7 +2,8 @@
 post: post
 author: geoff
 title: Get A Complete Cloud WMS Buyers' Guide On EXPLOREWMS
-categories: []
+categories:
+- WMS
 featured_image: ''
 section: Blog
 image: "/assets/images/architecture-buildings-business-city-325185.jpg"
