@@ -44,3 +44,5 @@ fields:
   label: author
   hidden: true
   default: Geoff
+pages:
+- _posts/turn-hurdles-into-opportunities-by-understanding-the-rpa-challenges-facing-smbs.md
