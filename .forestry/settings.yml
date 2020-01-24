@@ -14,7 +14,7 @@ sections:
   label: Contact Information
 - type: document
   path: _data/welcome.yml
-  label: Welcome Block
+  label: Homepage Greeting
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
