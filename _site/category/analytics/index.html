@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Privacy Policy | Geoff Whiting</title>
+    <title>analytics | Geoff Whiting</title>
 
     <!-- Netlify CMS: https://www.netlifycms.org/docs/jekyll/ -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Privacy Policy | Geoff Whiting</title>
+<title>analytics | Geoff Whiting</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Privacy Policy" />
+<meta property="og:title" content="analytics" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This is the home of Geoff Whiting, a Washington DC writer and content marketer." />
 <meta property="og:description" content="This is the home of Geoff Whiting, a Washington DC writer and content marketer." />
-<link rel="canonical" href="http://localhost:4000/privacy-policy.html" />
-<meta property="og:url" content="http://localhost:4000/privacy-policy.html" />
+<link rel="canonical" href="http://localhost:4000/category/analytics/" />
+<meta property="og:url" content="http://localhost:4000/category/analytics/" />
 <meta property="og:site_name" content="Geoff Whiting" />
 <script type="application/ld+json">
-{"description":"This is the home of Geoff Whiting, a Washington DC writer and content marketer.","@type":"WebPage","url":"http://localhost:4000/privacy-policy.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"Privacy Policy","@context":"http://schema.org"}</script>
+{"description":"This is the home of Geoff Whiting, a Washington DC writer and content marketer.","@type":"WebPage","url":"http://localhost:4000/category/analytics/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"analytics","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -132,67 +132,67 @@ var documents = [{
     "id": 8,
     "url": "http://localhost:4000/tags.html",
     "title": "Tags",
-    "body": "          Tags          {% for tag in site. tags %}     {{ tag[0] }}:           {% assign pages_list = tag[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
+    "body": "          Tags               sticky:                                  		Writer. Copy Editor. Digital Publications Specialist. Content Marketer	: 		  My work has been syndicated nationally and internationally and my passion is helping small companies find their voice. 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                              featured:                                  		Does Your Business Want AI or RPA?	: 		  Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. Nearly 20% of U. S. enterprises use some form of thi. . . 	 			In 				Customer-Knowledge, 				AI, 				RPA, 				SMB, 								Feb 02, 2019						                                 		We all wait for summer	: 		  This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Mos. . . 	 			In 				Jekyll, 				tutorial, 								Jan 28, 2019						                              summer:                                  		Three Lessons For Meaningful Brand Storytelling	: 		  Kings of coffee shops, queens of the stage, and jokers everywhere are keepers of an often undervalued business skill: storytelling. They use storytelling to keep their audience engage. . . 	 			In 				Content-Development, 								Feb 03, 2019						                                             Featured: work cats                                    Does Your Business Want AI or RPA?                          In                     Customer-Knowledge,                     AI,                     RPA,                     SMB,                                                                           We all wait for summer                          In                     Jekyll,                     tutorial,                                                         "
     }, {
     "id": 9,
     "url": "http://localhost:4000/work.html",
     "title": "Work",
-    "body": "{{page. title | capitalize }}: {% assign sorted-posts = site. posts | where:  section , projects  %}{% for post in sorted-posts limit: 5 %} {{post. title}}{% endfor %}{% assign items_grouped = site. posts | where:  section , projects  | group_by: 'categories' %} {% for group in items_grouped %}  {{group. name}}:   {% for item in group. items %}    {{item. title}}   {% endfor %} {% endfor %}"
+    "body": "Work:  "
     }, {
     "id": 10,
     "url": "http://localhost:4000/robots.txt",
     "title": "",
-    "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
+    "body": "Sitemap: http://localhost:4000/sitemap. xml "
     }, {
     "id": 11,
     "url": "http://localhost:4000/page2/",
     "title": "Writer, Copy Editor, Digital Publications Specialist &amp; Content Marketer",
-    "body": " {% if page. url ==  /  %}      {% assign latest_post = site. posts[0] %}              &lt;div class= topfirstimage       style= background-image: url({% if latest_post. image contains  ://  %}{{site. url}}{{ latest_post. image }}{% else %} {{site. url}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;     &lt;/div&gt;                   {{ latest_post. title }}     :            {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}                        In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                          {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}       {% if second_post. image %}               &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;             {% endif %}               {{ second_post. title }}     :            In        {% for category in second_post. categories %}       {{ category }},        {% endfor %}                      {{ second_post. date | date: '%b %d, %Y' }}                  {%- assign third_post = site. posts[2] -%}       {% if third_post. image %}               &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;             {% endif %}               {{ third_post. title }}     :            In        {% for category in third_post. categories %}       {{ category }},        {% endfor %}                      {{ third_post. date | date: '%b %d, %Y' }}                  {%- assign fourth_post = site. posts[3] -%}       {% if fourth_post. image %}               &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;             {% endif %}               {{ fourth_post. title }}     :            In        {% for category in fourth_post. categories %}       {{ category }},        {% endfor %}                      {{ fourth_post. date | date: '%b %d, %Y' }}                 {% for post in site. posts %} {% if post. tags contains  sticky  %}               {{post. title}}           {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}           Let's Chat                   {% endif %} {% endfor %} {% endif %}        Work:    {% for post in paginator. posts %}   {% include main-loop-card. html %}   {% endfor %}           {% if paginator. total_pages &gt; 1 %}         {% if paginator. previous_page %}     &laquo; Prev     {% else %}     &laquo;     {% endif %}     {% for page in (1. . paginator. total_pages) %}     {% if page == paginator. page %}     {{ page }}     {% elsif page == 1 %}     {{ page }}     {% else %}     {{ page }}     {% endif %}     {% endfor %}     {% if paginator. next_page %}     Next &raquo;     {% else %}     &raquo;     {% endif %}        {% endif %}          {% include sidebar-featured. html %}   "
+    "body": "         Work:       		Is Intelligence Enough	: 		  Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become. . . 	 			In 				Jekyll, 				tutorial, 								Jan 21, 2019	      		Quick Start Guide	: 		  If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:	 			In 				Jekyll, 								Jan 20, 2019						      		Writer. Copy Editor. Digital Publications Specialist. Content Marketer	: 		  My work has been syndicated nationally and internationally and my passion is helping small companies find their voice. 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                            &laquo; Prev                    1                    2                    &raquo;                         Featured: work cats                                    Does Your Business Want AI or RPA?                          In                     Customer-Knowledge,                     AI,                     RPA,                     SMB,                                                                           We all wait for summer                          In                     Jekyll,                     tutorial,                                                  "
     }, {
     "id": 12,
     "url": "http://localhost:4000/category/AI/",
     "title": "AI",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Ai:                        Does Your Business Want AI or RPA?  :       Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. N. . .               In                 Customer-Knowledge,                 AI,                 RPA,                 SMB,                               Feb 02, 2019                  "
     }, {
     "id": 13,
     "url": "http://localhost:4000/category/Content-Development/",
     "title": "Content-Development",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Content-development:                        Three Lessons For Meaningful Brand Storytelling  :       Kings of coffee shops, queens of the stage, and jokers everywhere are keepers of an often undervalued business skill: storytelling. T. . .               In                 Content-Development,                               Feb 03, 2019                  "
     }, {
     "id": 14,
     "url": "http://localhost:4000/category/Customer-Knowledge/",
     "title": "Customer-Knowledge",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Customer-knowledge:                        Does Your Business Want AI or RPA?  :       Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. N. . .               In                 Customer-Knowledge,                 AI,                 RPA,                 SMB,                               Feb 02, 2019                  "
     }, {
     "id": 15,
     "url": "http://localhost:4000/category/Dude/",
     "title": "Dude",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Dude:                        Support for Forestry. io and GitHub Pages  :       This is the article body.               In                 Dude,                               Jan 16, 2020                  "
     }, {
     "id": 16,
     "url": "http://localhost:4000/category/Jekyll/",
     "title": "Jekyll",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Jekyll:                        Accumulated experience of social living  :       The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree o. . .               In                 Jekyll,                 tutorial,                 forestry,                               Jan 30, 2019                              We all wait for summer  :       This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men hav. . .               In                 Jekyll,                 tutorial,                               Jan 28, 2019                              Tree of Codes  :       The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition . . .               In                 Jekyll,                 tutorial,                               Jan 27, 2019                              Red Riding Hood  :       The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition . . .               In                 Jekyll,                 tutorial,                               Jan 26, 2019                              Press and education  :       Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save m. . .               In                 Jekyll,                 tutorial,                               Jan 25, 2019                              Is Intelligence Enough  :       Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very dif. . .               In                 Jekyll,                 tutorial,                               Jan 21, 2019                              Quick Start Guide  :       If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can . . .               In                 Jekyll,                               Jan 20, 2019                              Writer. Copy Editor. Digital Publications Specialist. Content Marketer  :       My work has been syndicated nationally and internationally and my passion is helping small companies find their voice.               In                 Jekyll,                 tutorial,                               Jan 18, 2019                  "
     }, {
     "id": 17,
     "url": "http://localhost:4000/category/RPA/",
     "title": "RPA",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Rpa:                        Does Your Business Want AI or RPA?  :       Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. N. . .               In                 Customer-Knowledge,                 AI,                 RPA,                 SMB,                               Feb 02, 2019                  "
     }, {
     "id": 18,
     "url": "http://localhost:4000/category/SMB/",
     "title": "SMB",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Smb:                        Does Your Business Want AI or RPA?  :       Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. N. . .               In                 Customer-Knowledge,                 AI,                 RPA,                 SMB,                               Feb 02, 2019                  "
     }, {
     "id": 19,
     "url": "http://localhost:4000/category/WMS/",
     "title": "WMS",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Wms:                        Get A Complete Cloud WMS Buyers' Guide On EXPLOREWMS  :       Every aspect of our daily lives has moved to the cloud, and your warehouse’s functionality is following the same track.               In                 WMS,                               Jan 21, 2020                  "
     }, {
     "id": 20,
     "url": "http://localhost:4000/category/analytics/",
     "title": "analytics",
-    "body": "{{page. title | capitalize }}: {% if page. paginator %}  {% assign paginator = page. paginator %}     {% for post in paginator. posts limit:paginator. per_page %}        &lt;div class= topfirstimage  style= background-image: url({% if post. image contains  ://  %}{{ post. image }}{% else %} {{site. baseurl}}/{{ post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ post. title }}  :       {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in post. categories %}        {{ category }},         {% endfor %}                      {{ post. date | date: '%b %d, %Y' }}              {% endfor %}    {% else %}  Category index for &ldquo;{{ page. title }}&rdquo;     {% for post in page. posts %}       {{ post. title }}:     {{ post. date }}    {{ post. excerpt }}      {% endfor %} {% endif %}"
+    "body": "Analytics:                        Executive Lessons on Modern Text Analytics  :       Unstructured data may be the most prevalent form of information on the planet. It exists in our e-mails, surveys, social media accoun. . .               In                 analytics,                               Jan 21, 2020                  "
     }, {
     "id": 21,
     "url": "http://localhost:4000/category/forestry/",
@@ -336,44 +336,63 @@ function lunr_search(term) {
     <!-- Content -->
     <main role="main" class="site-content">
         <div class="container">
-<h3 class="font-weight-bold spanborder"><span>Privacy Policy</span></h3>
-<div class="page-content">
-<p>“Geoff Whiting” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.</p>
+<h3 class="font-weight-bold spanborder"><span>Analytics</span></h3>
 
-<h4 id="collection-of-routine-information">Collection of Routine Information</h4>
 
-<p>This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.</p>
 
-<h4 id="cookies">Cookies</h4>
+  <!-- Pagination is active -->
+  
 
-<p>Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content.</p>
 
-<h4 id="advertisement-and-other-third-parties">Advertisement and Other Third Parties</h4>
+  <section>
+    <!-- Show post excerpts for the current page -->
+    
 
-<p>Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to <a href="http://www.google.com/privacy_ads.html">opt out of Google’s cookie usage</a>.</p>
+<!-- class= remove-site-content-margin ?????  -->
+<div class="row">
+    <div class="col-md-8">
+    <div class="card border-0 mb-4 box-shadow">
+    <a href="/executive-lessons-on-modern-text-analytics/">
+    <div class="topfirstimage" style="background-image: url( /); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="/executive-lessons-on-modern-text-analytics/">Executive Lessons on Modern Text Analytics</a>
+    </h2>
+    <p class="excerpt">
+        Unstructured data may be the most prevalent form of information on the planet. It exists in our e-mails, surveys, social media accoun...
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                
+                <a class="text-capitalize text-muted smoothscroll" href="/category/analytics">analytics</a><span class="sep">, </span>
+                
+                </span>
+        </small>
+        <small class="text-muted">
+            Jan 21, 2020
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+<!-- -->
 
-<h4 id="links-to-third-party-websites">Links to Third Party Websites</h4>
+    
+  </section>
+  <!-- Show navigation next/previous page links if applicable -->
+  <!-- Pagination needs configuration. Next link send to non-existant page -->
+  <!-- <nav><p>
+    
+    
+  </p></nav> -->
 
-<p>We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.</p>
 
-<h4 id="security">Security</h4>
-
-<p>The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
-
-<h4 id="changes-to-this-privacy-policy">Changes To This Privacy Policy</h4>
-
-<p>This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
-
-<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
-
-<h4 id="contact-information">Contact Information</h4>
-
-<p>For any questions or concerns regarding the privacy policy, please <a href="/contact.html">contact us here</a>.</p>
-
-<!-- Comments -->
 
 </div>
-</div>
+
     </main>
 
 
