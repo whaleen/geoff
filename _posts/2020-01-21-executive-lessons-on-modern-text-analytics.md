@@ -4,8 +4,10 @@ post: post
 author: geoff
 title: Executive Lessons on Modern Text Analytics
 categories:
-- analytics
+- Executive-Paper
+- Analytics
 tags: []
+image: "/assets/images/abstract-art-blur-bright-373543.jpg"
 
 ---
 Unstructured data may be the most prevalent form of information on the planet. It exists in our e-mails, surveys, social media accounts, call center logs and even reports like this. Not only is between 60% and 80% of corporate data unstructured, but the way people communicate is predominantly unstructured.
