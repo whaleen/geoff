@@ -4,7 +4,7 @@ author: geoff
 date: 2020-01-21 03:00:00 -0500
 title: Hurricane Preparedness Guide
 pdf: "/assets/images/1 - 2014 Hurricane Preparedness Guide.pdf"
-image: ''
+image: "/assets/images/crashing-waves-1494707.jpg"
 categories:
 - Report
 - Gudie
