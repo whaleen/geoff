@@ -132,26 +132,25 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
 
   </div>
 
-  <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-  {% for post in site.posts %}
-  {% if post.tags contains "sticky" %}
+  <!-- Welcome -->
+
   <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
       <div class="row justify-content-between">
         <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-          <h1 class="mb-3">{{post.title}}</h1>
+          <h1 class="mb-3">{{ site.data.welcome.heading }}</h1>
           <p class="mb-3 lead">
-            {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+            {{ site.data.welcome.paragraph }}
           </p>
-          <a href="{{site.baseurl}}/contact" class="btn btn-dark">Let's Chat</a>
+          <a href="{{site.baseurl}}/contact" class="btn btn-dark">{{ site.data.welcome.button_text }}</a>
         </div>
-        <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">
+        <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.url}}/{{ site.data.welcome.featured_image }});">
         </div>
       </div>
     </div>
   </div>
-  {% endif %}
-  {% endfor %}
+
+
 
 
 
