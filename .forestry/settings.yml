@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: jekyll-posts
-  label: Posts
+  label: Articles
   create: all
   templates:
   - blog-post
