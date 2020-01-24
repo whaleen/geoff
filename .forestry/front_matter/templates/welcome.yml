@@ -11,6 +11,8 @@ fields:
 - type: text
   name: button_text
   label: button_text
-- type: text
-  name: featured_image
-  label: featured_image
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
