@@ -6,7 +6,7 @@ pdf: "/assets/images/TON.pdf"
 image: "/assets/images/telegram.jpeg"
 categories:
 - Crypto
-- White Paper
+- White-Paper
 - ICO
 
 ---

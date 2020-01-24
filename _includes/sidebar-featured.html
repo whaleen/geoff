@@ -1,9 +1,12 @@
 <div class="sticky-top sticky-top-offset">
     <h4 class="font-weight-bold spanborder"><span>Topics</span></h4>
 
-    {% for category in site.categories %}
-    <li><a href ="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' }}</a></li>
-    {% endfor %}
+
+    <ul class="list-group list-group-flush">
+      {% for category in site.categories %}
+      <li class="list-group-item" style="text-transform:capitalize;"><a href ="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' | replace: "-", "&nbsp;" }}</a></li>
+      {% endfor %}
+    </ul>
 
 
 </div>

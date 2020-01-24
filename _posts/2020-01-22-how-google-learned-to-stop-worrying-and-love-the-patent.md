@@ -6,7 +6,7 @@ title: How Google Learned To Stop Worrying And Love The Patent
 pdf: "/assets/images/8 - How Google Learned to Stop Worrying and Love the Patent.pdf"
 image: "/assets/images/strangelove.jpeg"
 categories:
-- White Paper
+- White-Paper
 - Patents
 
 ---

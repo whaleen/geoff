@@ -7,7 +7,7 @@ pdf: "/assets/images/BP Case Study - July 2017.pdf"
 image: "/assets/images/bp.png"
 categories:
 - Logistics
-- Case Study
+- Case-Study
 
 ---
 Created this case study for Federal Heath's first-ever brand conversion of a Pemex station to British Petroleum (BP). Federal Heath design and production teams produced the majority of the components for the rebrand, including canopy fascia and dispenser graphics.

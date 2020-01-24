@@ -3,7 +3,7 @@ section: Blog
 layout: post
 title:  Writer. Copy Editor. Digital Publications Specialist. Content Marketer
 author: Geoff
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: assets/images/geoff.jpg
 tags: [sticky]
 ---

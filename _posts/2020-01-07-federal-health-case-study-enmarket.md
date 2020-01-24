@@ -7,7 +7,7 @@ pdf: "/assets/images/Enmarket-Case-Study.pdf"
 image: "/assets/images/enmarket.png"
 categories:
 - Logistics
-- Case Study
+- Case-Study
 
 ---
 This "Branding with a Custom Touch for Enmarket Stores" case study was created for Federal Heath to highlight its just-in-time manufacturing services.

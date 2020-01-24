@@ -6,7 +6,7 @@ title: The Role of Analytics In Canada's Insurance Markets
 pdf: "/assets/images/4 - The Role of Analytics in Canadas Insurance Markets.pdf"
 image: "/assets/images/aerial-photography-of-buildings-1856488.jpg"
 categories:
-- Executive Paper
+- Executive-Paper
 - Analytics
 
 ---

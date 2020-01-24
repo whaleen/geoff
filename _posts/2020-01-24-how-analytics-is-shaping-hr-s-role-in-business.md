@@ -5,7 +5,7 @@ title: How Analytics Is Shaping HR's Role In Business
 pdf: "/assets/images/3 - How Analytics Is Shaping HRs Role In Business.pdf"
 image: "/assets/images/blue-tree-painting-2397989.jpg"
 categories:
-- Executive Paper
+- Executive-Paper
 - HR
 - Analytics
 

@@ -6,7 +6,7 @@ title: 'Federal Health Case Study: Texas Roadhouse'
 pdf: "/assets/images/Texas-Road-House-Case-Study.pdf"
 image: "/assets/images/texas-roadhouse.png"
 categories:
-- Case Study
+- Case-Study
 - Logistics
 
 ---

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-<h3 class="font-weight-bold spanborder"><span>{{page.title | capitalize }}</span></h3>
+<h3 class="font-weight-bold spanborder" style="text-transform:capitalize;"><span>{{page.title | replace: "-", "&nbsp;" }}</span></h3>
 
 {% if page.paginator %}
 
@@ -44,8 +44,15 @@ layout: default
     </div>
     </div>
     </div>
+
+
+
+
+
 </div>
 <!-- -->
+
+
 
     {% endfor %}
   </section>

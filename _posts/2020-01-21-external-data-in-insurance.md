@@ -7,8 +7,8 @@ pdf: "/assets/images/6 - External Data in Insurance.pdf"
 image: "/assets/images/abstract-architectural-design-architecture-building-136419.jpg"
 categories:
 - Insurance
-- Executive Briefing
-- Executive Paper
+- Executive-Briefing
+- Executive-Paper
 
 ---
 Insurance is a centuries-old industry built on the foundation of data collection and analysis to evaluate risk and reward. Industry practices have led insurers to obtain and review vast quantities of data on their customers, but have found this internal data collection wanting.
