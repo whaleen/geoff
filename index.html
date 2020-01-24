@@ -80,7 +80,7 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
         {% if third_post.image %}
         <div class="col-md-4">
           <a href="{{site.baseurl}}{{third_post.url}}">
-            <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+            <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.url  }}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
           </a>
         </div>
         {% endif %}
@@ -107,7 +107,7 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
         {% if fourth_post.image %}
         <div class="col-md-4">
           <a href="{{site.baseurl}}{{fourth_post.url}}">
-            <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+            <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.url}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
           </a>
         </div>
         {% endif %}
