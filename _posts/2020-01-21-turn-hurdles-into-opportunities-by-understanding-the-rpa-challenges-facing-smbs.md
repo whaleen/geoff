@@ -1,6 +1,6 @@
 ---
 section: Blog
-author: Geoff
+author: geoff
 title: Turn Hurdles Into Opportunities By Understanding The RPA Challenges Facing
   SMBS
 pdf: ''

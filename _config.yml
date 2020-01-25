@@ -7,9 +7,6 @@ url: 'http://127.0.0.1:4000'
 baseurl: ''
 # url: 'https://whaleen.github.io/geoff/'
 # baseurl: 'https://whaleen.github.io/geoff/'
-disqus: 'demowebsite'
-email: 'example@example.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
