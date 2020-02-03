@@ -7,6 +7,7 @@ sections:
 - type: document
   path: _data/article_footer.yml
   label: Article Footer
+  match: "**/*"
 - type: jekyll-posts
   label: Articles
   create: all
