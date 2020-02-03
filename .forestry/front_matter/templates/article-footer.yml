@@ -2,15 +2,15 @@
 label: Article Footer
 hide_body: true
 fields:
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  default: ''
 - type: text
   name: heading
   label: heading
 - type: text
   name: subtext
   label: subtext
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: Image
-  default: "/assets/images/geoff-1.jpg"
