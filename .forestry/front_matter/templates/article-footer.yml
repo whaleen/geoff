@@ -1,4 +1,23 @@
 ---
 label: Article Footer
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: subtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtext
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
