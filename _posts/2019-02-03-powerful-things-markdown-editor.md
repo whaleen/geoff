@@ -5,8 +5,6 @@ title: Three Lessons For Meaningful Brand Storytelling
 author: geoff
 categories:
 - Content-Development
-tags:
-- summer
 image: "/assets/images/16.jpg"
 
 ---

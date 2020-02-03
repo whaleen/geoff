@@ -7,7 +7,6 @@ categories:
 - White-Paper
 - Executive-Paper
 - Analytics
-tags: []
 image: "/assets/images/woman-using-ipad-2343480.jpg"
 
 ---
