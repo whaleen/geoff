@@ -3,54 +3,53 @@ layout: default
 ---
 
 <div class="container">
-<h3 class="font-weight-bold spanborder" style="text-transform:capitalize;"><span>{{page.title | replace: "-", "&nbsp;" }}</span></h3>
+  <h3 class="font-weight-bold spanborder" style="text-transform:capitalize;"><span>{{page.title | replace: "-", "&nbsp;" }}</span></h3>
 
-{% if page.paginator %}
+  {% if page.paginator %}
 
   <!-- Pagination is active -->
   {% assign paginator = page.paginator %}
 
   <section>
-    <!-- Show post excerpts for the current page -->
-    {% for post in paginator.posts limit:paginator.per_page %}
+    <div class="row clearfix">
 
-<!-- class= remove-site-content-margin ?????  -->
-<div class="row">
-    <div class="col-md-8">
-    <div class="card border-0 mb-4 box-shadow">
-    <a href="{{site.baseurl}}{{post.url}}">
-    <div class="topfirstimage" style="background-image: url({% if post.image contains "://" %}{{ post.image }}{% else %} {{site.url}}/{{ post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>
-    </a>
-    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-    <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
-    </h2>
-    <p class="excerpt">
-        {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
-    </p>
-    <div>
-        <small class="d-block text-muted">
-            In <span class="catlist">
-                {% for category in post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/category/{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                {% endfor %}
+      <!-- Show post excerpts for the current page -->
+      {% for post in paginator.posts limit:paginator.per_page %}
+
+      <div class="col-md-6 col-lg-4 float-left">
+        <div class="card border-0 mb-4 box-shadow">
+          <a href="{{site.baseurl}}{{post.url}}">
+            <div class="topfirstimage" style="background-image: url({% if post.image contains "://" %}{{ post.image }}{% else %} {{site.url}}/{{ post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;">
+            </div>
+          </a>
+          <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+            <h2 class="h4 font-weight-bold">
+              <a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+            </h2>
+            <p class="excerpt">
+              {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+            </p>
+            <div>
+              <small class="d-block text-muted">
+                In <span class="catlist">
+                  {% for category in post.categories %}
+                  <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/category/{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                  {% endfor %}
                 </span>
-        </small>
-        <small class="text-muted">
-            {{ post.date | date: '%b %d, %Y' }}
-        </small>
-    </div>
-    </div>
-    </div>
-    </div>
+              </small>
+              <small class="text-muted">
+                {{ post.date | date: '%b %d, %Y' }}
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
-<!-- -->
-
-
-
-    {% endfor %}
+      {% endfor %}
+    </div>
   </section>
+
+<hr />
   <!-- Show navigation next/previous page links if applicable -->
   <!-- Pagination needs configuration. Next link send to non-existant page -->
   <!-- <nav><p>
@@ -58,22 +57,19 @@ layout: default
     {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">Older <span aria-hidden="true">&rarr;</span></a>{% endif %}
   </p></nav> -->
 
-{% else %}
+  {% else %}
 
   <!-- Pagination is not active -->
-  <h1>Category index for &ldquo;{{ page.title }}&rdquo;</h1>
+
+  {% endif %}
 
   <section>
-    <!-- Show excerpts for all posts in this category -->
-    {% for post in page.posts %}
-      <article>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <h5>{{ post.date }}</h5>
-        <p>{{ post.excerpt }}</p>
-      </article>
-    {% endfor %}
+    <div class="row">
+      <strong class="btn strong">All Topics: </strong>
+      {% for category in site.categories %}
+      <a class="btn" href="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' | replace: "-", "&nbsp;" }}</a>
+      {% endfor %}
+    </div>
   </section>
-
-{% endif %}
 
 </div>
