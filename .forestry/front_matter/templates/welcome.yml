@@ -16,5 +16,13 @@ fields:
   config:
     maxSize: 250
   label: Featured Image
+- name: background_colour
+  type: color
+  label: Background Colour
+  config:
+    required: false
+    color_format: Hex
+  description: You may pick a lighter colour that will contrast well with the dark
+    text which overlays it.
 pages:
 - _data/welcome.yml
