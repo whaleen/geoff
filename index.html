@@ -134,12 +134,12 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
 
   <!-- Welcome -->
 
-  <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+  <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem position-relative" style="background-color: {{ site.data.welcome.background_colour }}">
     <div class="pl-4 pr-0 h-100 tofront">
       <div class="row justify-content-between">
         <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-          <h1 class="mb-3">{{ site.data.welcome.heading }}</h1>
-          <p class="mb-3 lead">
+          <h1 class="mb-3" style="color: {{ site.data.welcome.text_colour }}">{{ site.data.welcome.heading }}</h1>
+          <p class="mb-3 lead" style="color: {{ site.data.welcome.text_colour }}">
             {{ site.data.welcome.paragraph }}
           </p>
           <a href="{{site.baseurl}}/contact" class="btn btn-dark">{{ site.data.welcome.button_text }}</a>
