@@ -3,7 +3,6 @@ title: "Contact"
 permalink: "/contact/"
 ---
 
-
 <div class="row">
   <div class="col-sm-10">
 <p>
@@ -13,7 +12,6 @@ permalink: "/contact/"
 <p>
 If you’re interested in a quote for writing, editing, or other communication services, please include a description of your project, its time frame, and the best way for me to reach you.
 </p>
-
 
     <form method="POST" action="https://api.slapform.com/joshuavaage@icloud.com">
       <div class="form-group">
