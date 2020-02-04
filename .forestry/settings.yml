@@ -9,6 +9,8 @@ sections:
   create: all
   templates:
   - blog-post
+- type: heading
+  label: Website Copy
 - type: document
   path: _data/article_footer.yml
   label: Article Footer
