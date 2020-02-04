@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/client_testimonial.yml
   label: Client Testimonials
-  match: "**/*"
 - type: document
   path: _data/client_carousel.yml
   label: Client Carousel
