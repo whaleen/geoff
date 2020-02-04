@@ -18,14 +18,16 @@ sections:
 - type: heading
   label: Website Copy
 - type: document
+  path: _data/welcome.yml
+  label: Homepage Greeting
+- type: document
   path: _data/article_footer.yml
   label: Article Footer
+- type: heading
+  label: Business Details
 - type: document
   path: _data/information.yml
   label: Contact Information
-- type: document
-  path: _data/welcome.yml
-  label: Homepage Greeting
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
