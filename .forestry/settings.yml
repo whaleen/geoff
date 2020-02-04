@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/client_carousel.yml
   label: Client Carousel
-  match: "**/*"
 - type: document
   path: _data/article_footer.yml
   label: Article Footer
