@@ -4,20 +4,20 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Articles
+  create: all
+  templates:
+  - blog-post
+- type: document
+  path: _data/article_footer.yml
+  label: Article Footer
 - type: document
   path: _data/client_testimonial.yml
   label: Client Testimonials
 - type: document
   path: _data/client_carousel.yml
   label: Client Carousel
-- type: document
-  path: _data/article_footer.yml
-  label: Article Footer
-- type: jekyll-posts
-  label: Articles
-  create: all
-  templates:
-  - blog-post
 - type: document
   path: _data/information.yml
   label: Contact Information
