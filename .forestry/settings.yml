@@ -13,7 +13,7 @@ sections:
   path: _data/client_carousel.yml
   label: Client Carousel
 - type: document
-  path: _data/client_testimonial.yml
+  path: _data/client_testimonials.yml
   label: Client Testimonials
 - type: heading
   label: Website Copy
