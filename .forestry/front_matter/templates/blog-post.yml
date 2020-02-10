@@ -54,6 +54,7 @@ fields:
   hidden: true
   default: geoff
 pages:
+- _posts/2019-10-28-every-business-should-be-people-centric.md
 - _posts/2020-01-16-insurance-analytics-accessing-external-data-and-technology-from-the-c-suite.md
 - _posts/2020-01-21-the-role-of-data-and-analytics-in-insurance-fraud-detection.md
 - _posts/bithub-the-digital-asset-exchange.md
