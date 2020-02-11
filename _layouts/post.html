@@ -96,12 +96,12 @@ layout: default
 			<div class="row mt-5">
 				<div class="col-md-2 align-self-center">
 					{% if author.avatar %}
-					<img class="rounded-circle" src="{{site.url}}/{{author.avatar}}" alt="{{author.name}}" width="90" />
+					<img class="rounded-circle" src="{{site.url}}/{{ site.data.article_footer.image }}" alt="{{author.name}}" width="90" />
 					{% endif %}
 				</div>
 				<div class="col-md-10">
-					<h5 class="font-weight-bold">Written by {{ author.name }}</h5>
-					{{ author.bio }}
+					<h5 class="font-weight-bold">{{ site.data.article_footer.heading }}</h5>
+					{{ site.data.article_footer.subtext }}
 				</div>
 			</div>
 			{% endif %}
