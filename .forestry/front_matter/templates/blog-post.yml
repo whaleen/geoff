@@ -2,6 +2,23 @@
 label: Post
 hide_body: false
 fields:
+- name: featured_position
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Featured Position
+  description: Select which position for displaying on the top of the Home page.
 - name: date
   type: datetime
   label: Date
@@ -53,19 +70,6 @@ fields:
   label: author
   hidden: true
   default: geoff
-- name: featured_position
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Featured Position
-  description: Select which position for displaying on the top of the Home page.
 pages:
 - _posts/2019-10-28-every-business-should-be-people-centric.md
 - _posts/2020-01-16-insurance-analytics-accessing-external-data-and-technology-from-the-c-suite.md
