@@ -17,7 +17,7 @@ fields:
       section: 
       file: 
       path: 
-  label: Featured Position
+  label: Feature Position
   description: Select which position for displaying on the top of the Home page.
 - name: date
   type: datetime
