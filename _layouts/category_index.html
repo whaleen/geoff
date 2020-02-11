@@ -3,7 +3,23 @@ layout: default
 ---
 
 <div class="container">
+
   <h3 class="font-weight-bold spanborder" style="text-transform:capitalize;"><span>{{page.title | replace: "-", "&nbsp;" }}</span></h3>
+
+  <nav class="navbar navbar-light bg-light" style="z-index: 1111;">
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle ml-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Topics
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        {% assign sorted_categories = (site.categories | sort:0) %}
+        {% for category in sorted_categories %}
+        <!-- Using the 'capitalize' filter in Liquid Tags - you can leave this out -->
+        <a class="dropdown-item" href="{{site.url}}/category/{{category[0]}}">{{category[0] | replace: "-", "&nbsp;" }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </nav>
 
   {% if page.paginator %}
 
@@ -49,7 +65,7 @@ layout: default
     </div>
   </section>
 
-<hr />
+  <hr />
   <!-- Show navigation next/previous page links if applicable -->
   <!-- Pagination needs configuration. Next link send to non-existant page -->
   <!-- <nav><p>
@@ -67,7 +83,7 @@ layout: default
     <div class="row">
       <strong class="btn strong">All Topics: </strong>
       {% for category in site.categories %}
-      <a class="btn" href="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' | replace: "-", "&nbsp;" }}</a>
+      <a class="btn" href="{{site.url}}/category/{{category | first}}">{{ category | first | replace: "-", "&nbsp;" }}</a>
       {% endfor %}
     </div>
   </section>
