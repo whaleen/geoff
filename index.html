@@ -151,10 +151,6 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
   <!--endif page url is / -->
 
 
-<!-- Client Carousel -->
-  <!-- {% for thumbnail in site.data.client_carousel.thumbnails %}
-    <img class="img-thumbnail" src="{{ site.url }}/{{ thumbnail }}" />
-  {% endfor %} -->
 
 <!-- Client Testimonials -->
 
@@ -226,6 +222,9 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
         {% endif %}
       </div>
 
+
+
+
     </div>
 
     <div class="col-md-4">
@@ -234,4 +233,15 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
 
   </div>
 
+<hr  />
+        <!-- Client Carousel -->
+        <h5>I have written or edited content for the following publications: </h5>
+        <div class="row">
+
+          {% for thumbnail in site.data.client_carousel.thumbnails %}
+          <div class="col-2 col-lg-1">
+            <img style="-webkit-filter: grayscale(100%); filter: grayscale(100%);" class="" src="{{ site.url }}/{{ thumbnail }}" />
+          </div>
+          {% endfor %}
+        </div>
 </div>
