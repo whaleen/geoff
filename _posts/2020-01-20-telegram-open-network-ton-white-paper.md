@@ -8,6 +8,8 @@ categories:
 - Crypto
 - White-Paper
 - ICO
+featured_position: '3'
+date: 2020-02-20 03:00:00 -0500
 
 ---
 I provided English-language edits as well as content direction and strategy for the media-focused white-paper for Telegram's ICO and pre-ICO efforts.
