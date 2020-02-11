@@ -9,6 +9,7 @@ categories:
 - AI
 - RPA
 - SMB
+- Blog
 image: "/assets/images/silhouette-of-person-holding-glass-mason-jar-1274260.jpg"
 
 ---
