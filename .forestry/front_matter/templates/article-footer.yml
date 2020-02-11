@@ -14,3 +14,5 @@ fields:
 - type: text
   name: subtext
   label: subtext
+pages:
+- _data/article_footer.yml
