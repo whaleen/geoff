@@ -2,7 +2,7 @@
 label: Post
 hide_body: false
 fields:
-- name: featured_position
+- name: feature_position
   type: select
   default: ''
   config:
