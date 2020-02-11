@@ -14,11 +14,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- type: list
-  name: categories
-  label: categories
-  config:
-    use_select: false
 - name: section
   type: select
   default: " Project"
@@ -65,6 +60,11 @@ fields:
   config:
     maxSize: 250
   label: Image
+- type: list
+  name: categories
+  label: categories
+  config:
+    use_select: false
 - type: text
   name: author
   label: author
