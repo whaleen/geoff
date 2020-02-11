@@ -1,10 +1,10 @@
 <div class="sticky-top sticky-top-offset">
   <h4 class="font-weight-bold spanborder"><span>Topics</span></h4>
-
+  {% assign sorted_categories = (site.categories | sort:0) %}
   <ul class="list-group list-group-flush">
-    {% for category in site.categories %}
-    <li class="list-group-item" style="text-transform:capitalize;"><a href="{{site.url}}/category/{{category | first}}">{{ category | first | remove : 'blog' | replace: "-", "&nbsp;" }}</a></li>
+    {% for category in sorted_categories %}
+    <!-- Using the 'capitalize' filter in Liquid Tags - you can leave this out -->
+    <li class="list-group-item" style="text-transform:capitalize;"><a href="{{site.url}}/category/{{category[0]}}">{{category[0] | replace: "-", "&nbsp;" }}</a></li>
     {% endfor %}
   </ul>
-
 </div>
