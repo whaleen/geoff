@@ -11,6 +11,5 @@ fields:
   type: image_gallery
   config: {}
   label: Thumbnails
-  description: The website requires 300 x 300 images for proper display.
 pages:
 - _data/client_carousel.yml
