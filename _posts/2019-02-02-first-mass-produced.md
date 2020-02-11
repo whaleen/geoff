@@ -1,5 +1,6 @@
 ---
 section: Blog
+feature_position: 1
 layout: post
 title: Does Your Business Want AI or RPA?
 author: geoff
