@@ -7,7 +7,7 @@ pdf: ''
 image: "/assets/images/grayscale-photography-of-chairs-in-an-auditorium-2305084.jpg"
 categories:
 - Customer-Knowledge
-feature_position: '4'
+feature_position: '3'
 date: 2020-02-06 03:00:00 -0500
 
 ---
