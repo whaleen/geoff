@@ -2,23 +2,9 @@
 label: Post
 hide_body: false
 fields:
-- name: feature_position
-  type: select
-  default: ''
-  config:
-    required: false
-    options:
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Feature Position
-  description: Select which position for displaying on the top of the Home page.
+- type: text
+  name: title
+  label: title
 - name: date
   type: datetime
   label: Date
@@ -43,9 +29,23 @@ fields:
       path: 
   label: Section
   description: Choose whether this is a blog or project post.
-- type: text
-  name: title
-  label: title
+- name: feature_position
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Feature Position
+  description: Select which position for displaying on the top of the Home page.
 - name: pdf
   type: file
   config:
