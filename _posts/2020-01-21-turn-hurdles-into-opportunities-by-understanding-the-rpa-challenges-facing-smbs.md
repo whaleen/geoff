@@ -7,6 +7,8 @@ pdf: ''
 image: "/assets/images/grayscale-photography-of-chairs-in-an-auditorium-2305084.jpg"
 categories:
 - Customer-Knowledge
+feature_position: '4'
+date: 2020-02-06 03:00:00 -0500
 
 ---
 Enterprises are experts at gaining media attention when it comes to any new, exciting system or process, but the largest impact of business-positive technologies is often felt by small and mid-sized firms. The latest buzz to live in the big business space is Robotic Process Automation (RPA), but it’s time we push it squarely into the SMB realm.
