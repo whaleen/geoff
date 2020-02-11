@@ -6,8 +6,9 @@ author: geoff
 categories:
 - Content-Development
 image: "/assets/images/people moving around.jpg"
-date: 2020-02-01 03:00:00 -0500
+date: 2020-02-01T08:00:00.000+00:00
 feature_position: 2
+featured_position: '2'
 
 ---
 Kings of coffee shops, queens of the stage, and jokers everywhere are keepers of an often undervalued business skill: storytelling. They use storytelling to keep their audience engaged and coming back for more.
