@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: page
 title: Test Page
 date: ''
 permalink: gnarly-spatula
 
 ---
-This is a test page. THis is some example text.
+This is a test page. This is some example text.
 
-The URL can be edited. 
+The URL can be edited.
 
 If you put **'gnarly-spatula'** in the URL field this page will become viewable at http://gwhiting.com/gnarly-spatula
 
