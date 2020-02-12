@@ -7,7 +7,7 @@ fields:
   config:
     maxSize: 250
   label: Profile Image
-  description: 'Shows at the top of each article''s individual page. '
+  description: Image dimension must be 1:1 (square) or will display oblong
 - type: text
   name: phone
   label: phone
