@@ -2,6 +2,12 @@
 label: Contact Information
 hide_body: true
 fields:
+- name: profile_image
+  type: file
+  config:
+    maxSize: 250
+  label: Profile Image
+  description: 'Shows at the top of each article''s individual page. '
 - type: text
   name: phone
   label: phone
@@ -26,9 +32,3 @@ fields:
 - type: text
   name: country
   label: country
-- type: text
-  name: twitter
-  label: twitter
-- type: text
-  name: facebook
-  label: facebook
