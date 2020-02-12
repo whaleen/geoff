@@ -12,5 +12,10 @@ fields:
   label: layout
   default: page
   hidden: true
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: URL
 pages:
 - test.md
