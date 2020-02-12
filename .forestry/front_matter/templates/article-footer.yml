@@ -12,6 +12,15 @@ fields:
 - type: text
   name: heading
   label: heading
+- name: copy
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Copy
 - type: text
   name: subtext
   label: subtext
