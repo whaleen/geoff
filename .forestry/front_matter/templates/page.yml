@@ -18,4 +18,5 @@ fields:
     required: false
   label: URL
 pages:
+- another-test.md
 - test.md
