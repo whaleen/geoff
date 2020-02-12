@@ -32,3 +32,5 @@ fields:
 - type: text
   name: country
   label: country
+pages:
+- _data/information.yml
