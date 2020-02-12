@@ -1,1 +1,0 @@
-gwhiting.com
