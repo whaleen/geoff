@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 permalink: "/contact/"
+footer: true
 ---
 
 <div class="row">
