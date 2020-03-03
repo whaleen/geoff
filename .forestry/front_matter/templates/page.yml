@@ -17,5 +17,21 @@ fields:
   config:
     required: false
   label: URL
+- name: show_in_footer
+  type: boolean
+  label: Show in Footer
+- name: footer
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: footer
+  hidden: true
+  showOnly:
+    field: show_in_footer
+    value: true
 pages:
 - _pages/rates.md
