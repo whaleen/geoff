@@ -17,5 +17,3 @@ fields:
   config:
     required: false
   label: URL
-pages:
-- test.md
