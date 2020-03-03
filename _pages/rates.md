@@ -4,3 +4,4 @@ title: Rates
 permalink: rates
 
 ---
+placeholder content
