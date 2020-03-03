@@ -1,0 +1,16 @@
+---
+label: Testimonials
+hide_body: true
+fields:
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subtext
+  label: subtext
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: copy
+  label: copy
