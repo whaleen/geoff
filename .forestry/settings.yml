@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url:
+webhook_url: 
 sections:
 - type: directory
   path: _pages
@@ -13,9 +13,6 @@ sections:
   new_doc_ext: md
   templates:
   - page
-- type: document
-  path: _data/client_testimonials.yml
-  label: Testimonials
 - type: jekyll-posts
   label: Articles
   create: all
