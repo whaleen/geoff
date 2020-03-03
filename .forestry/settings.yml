@@ -1,8 +1,11 @@
 ---
+# items in content/secrets is hidden from menu
+- path: 404.html
+  hidden: true
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
