@@ -30,8 +30,6 @@
 
     {% include tracking-header.html %}
 
-
-
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
@@ -39,7 +37,7 @@
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong>{{site.name}}</strong></a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/gwhiting-logo.png" /><strong>{{site.name}}</strong></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -83,6 +81,11 @@
                 {% assign sorted-pages = site.pages | where: "show_in_footer","true" %}
                 {% for page in sorted-pages limit: 1 %}
                 <a href="{{ page.url }}">{{ page.title }}</a>
+                {% endfor %}
+
+                {% assign sorted-pages = site.pages | where: "show_in_footer","true" %}
+                {% for page in sorted-pages offset: 2 %}
+                &nbsp;|&nbsp; <a href="{{ page.url }}">{{ page.title }}</a>
                 {% endfor %}
             </div>
 
