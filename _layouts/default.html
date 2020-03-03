@@ -79,8 +79,15 @@
         <div class="row align-items-center justify-content-between">
             <div>
                 <span class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></span>
-                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span><br />
+                {% assign sorted-pages = site.pages | where: "footer","true" %}
+                {% for page in sorted-pages limit: 1 %}
+                <a href="{{ page.url }}">{{ page.title }}</a>
+                {% endfor %}
             </div>
+
+
+
             <div>
                 Made in <a class="text-dark font-weight-bold" href=""> Washington D.C. </a>
             </div>
