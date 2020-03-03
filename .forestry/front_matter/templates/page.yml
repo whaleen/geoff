@@ -17,3 +17,5 @@ fields:
   config:
     required: false
   label: URL
+pages:
+- _pages/beginner-s-orb.md
