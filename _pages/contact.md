@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 permalink: "/contact/"
-footer: true
+show_in_footer: true
 ---
 
 <div class="row">
