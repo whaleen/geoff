@@ -53,6 +53,9 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
+collections:
+  - testimonials
+
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
