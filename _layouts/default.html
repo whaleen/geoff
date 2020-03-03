@@ -80,7 +80,7 @@
             <div>
                 <span class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></span>
                 <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span><br />
-                {% assign sorted-pages = site.pages | where: "footer","true" %}
+                {% assign sorted-pages = site.pages | where: "show_in_footer","true" %}
                 {% for page in sorted-pages limit: 1 %}
                 <a href="{{ page.url }}">{{ page.title }}</a>
                 {% endfor %}
