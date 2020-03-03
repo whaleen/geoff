@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: _data/client_testimonials.yml
@@ -24,6 +24,9 @@ sections:
 - type: document
   path: _data/client_carousel.yml
   label: Client Carousel
+- type: document
+  path: _data/client_testimonials.yml
+  label: Testimonials
 - type: heading
   label: Website Copy
 - type: document
