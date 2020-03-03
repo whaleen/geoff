@@ -177,13 +177,13 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
   				<div class="carousel-inner">
             {% for testimonial in site.testimonials limit:1 %}
             <div class="item carousel-item active">
-              <p class="testimonial blockquote">{{ testimonial.testimonial }}</p>
+              <h1 class=" blockquote">{{ testimonial.testimonial }}</h1>
               <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
             </div>
             {% endfor %}
             {% for testimonial in site.testimonials offset:1 %}
             <div class="item carousel-item">
-              <p class="testimonial blockquote">{{ testimonial.testimonial }}</p>
+              <h1 class=" blockquote">{{ testimonial.testimonial }}</h1>
               <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
             </div>
             {% endfor %}
