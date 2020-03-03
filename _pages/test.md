@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Test Page
+title: Example Page
 date: ''
-permalink: gnarly-spatula
+permalink: example-page
 
 ---
 This is a test page. This is some example text.
 
 The URL can be edited!
 
-If you put **'gnarly-spatula'** in the URL field this page will become viewable at http://gwhiting.com/gnarly-spatula
+If you put **'example-page'** in the URL field this page will become viewable at http://gwhiting.com/**example-page**
 
 Let's link to another page in the website. How about the [contact page](#)?
 
