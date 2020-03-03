@@ -1,0 +1,13 @@
+---
+label: Testimonial
+hide_body: true
+fields:
+- type: text
+  name: client
+  label: client
+- type: text
+  name: client_role
+  label: client_role
+- type: textarea
+  name: testimonial
+  label: testimonial
