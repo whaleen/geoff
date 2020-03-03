@@ -3,6 +3,7 @@ layout: page
 title: Example Page
 date: ''
 permalink: example-page
+show_in_footer: true
 
 ---
 This is a test page. This is some example text.
