@@ -11,7 +11,7 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
   {% if page.url == "/" %}
 
   <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-  <div class="row remove-site-content-margin">
+  <div class="row remove-site-content-margin" style="padding-top: 75px;">
 
     <!-- Feature Position 1 -->
     {% assign sorted-posts = site.posts | where: "feature_position","1" %}
@@ -169,8 +169,6 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
 
   <!-- Client Testimonials -->
 
-
-
   <div class="container mt-5 mb-5 pt-5" style="height: 275px;">
   	<div class="row">
   		<div class="col-md-6 col-center m-auto">
@@ -254,14 +252,5 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
   </div>
 
 <hr  />
-        <!-- Client Carousel -->
-        <h5>I have written or edited content for the following publications:</h5>
-        <div class="row">
 
-          {% for thumbnail in site.data.client_carousel.thumbnails %}
-          <div class="col-2 col-lg-1">
-            <img style="-webkit-filter: grayscale(100%); filter: grayscale(100%);" class="" src="{{ site.url }}/{{ thumbnail }}" />
-          </div>
-          {% endfor %}
-        </div>
 </div>
