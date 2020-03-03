@@ -16,7 +16,6 @@ sections:
 - type: document
   path: _data/client_testimonials.yml
   label: Testimonials
-  read_only: false
 - type: jekyll-posts
   label: Articles
   create: all
