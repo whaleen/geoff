@@ -3,7 +3,7 @@ label: Client Testimonials
 hide_body: true
 display_field: client_testimonial
 fields:
-- name: client_testimonials
+- name: client_testimonial
   type: textarea
   default: ''
   config:
@@ -11,4 +11,14 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Client Testimonials
+  label: Testimonial
+- name: client_name
+  type: text
+  config:
+    required: false
+  label: Client Name
+- name: client_role
+  type: text
+  config:
+    required: false
+  label: Client Role
