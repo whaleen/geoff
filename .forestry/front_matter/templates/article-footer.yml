@@ -8,7 +8,7 @@ fields:
     maxSize: 250
   label: Image
   default: ''
-  description: 'Image dimension must be 1:1 (square) or will display oblong '
+  description: 'Image dimension must be 1:1 (square) or will display strangely '
 - type: text
   name: heading
   label: heading
