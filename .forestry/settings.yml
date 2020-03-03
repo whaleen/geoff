@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/client_testimonials.yml
+  label: Testimonials
 - type: directory
   path: _pages
   label: Pages
@@ -18,9 +21,6 @@ sections:
   create: all
   templates:
   - blog-post
-- type: document
-  path: _data/client_testimonials.yml
-  label: Client Testimonials
 - type: document
   path: _data/client_carousel.yml
   label: Client Carousel
