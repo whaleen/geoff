@@ -18,12 +18,6 @@ sections:
   create: all
   templates:
   - blog-post
-- type: document
-  path: _data/client_carousel.yml
-  label: Client Carousel
-- type: document
-  path: _data/client_testimonials.yml
-  label: Testimonials
 - type: heading
   label: Website Copy
 - type: document
