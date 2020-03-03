@@ -3,8 +3,13 @@ label: Testimonials
 hide_body: true
 fields:
 - type: text
-  name: client_testimonial
-  label: client_testimonial
+  name: client_name
+  label: Client Name
 - type: text
-  name: other
-  label: other
+  name: client_testimonial
+  label: Client Testimonial
+- name: client_role
+  type: text
+  config:
+    required: false
+  label: Client Role
