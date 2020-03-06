@@ -1,0 +1,25 @@
+<!-- Client Testimonials -->
+
+<div class="container mt-5 mb-5 pt-5" style="height: 275px;">
+    <div class="row">
+        <div class="col-md-6 col-center m-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="12000">
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+          {% for testimonial in site.testimonials limit:1 %}
+          <div class="item carousel-item active">
+            <h1 class="blockquote" style="font-family:Georgia, 'Times New Roman', Times, serif;">{{ testimonial.testimonial }}</h1>
+            <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
+          </div>
+          {% endfor %}
+          {% for testimonial in site.testimonials offset:1 %}
+          <div class="item carousel-item">
+            <h1 class="blockquote" style="font-family:Georgia, 'Times New Roman', Times, serif;">{{ testimonial.testimonial }}</h1>
+            <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
+          </div>
+          {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
