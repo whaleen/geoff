@@ -166,35 +166,9 @@ description: "Writer, Copy Editor, Digital Publications Specialist &amp; Content
     </div>
   </div>
 
-
   <!-- Client Testimonials -->
-
-  <div class="container mt-5 mb-5 pt-5" style="height: 275px;">
-  	<div class="row">
-  		<div class="col-md-6 col-center m-auto">
-  			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="12000">
-  				<!-- Wrapper for carousel items -->
-  				<div class="carousel-inner">
-            {% for testimonial in site.testimonials limit:1 %}
-            <div class="item carousel-item active">
-              <h1 class=" blockquote">{{ testimonial.testimonial }}</h1>
-              <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
-            </div>
-            {% endfor %}
-            {% for testimonial in site.testimonials offset:1 %}
-            <div class="item carousel-item">
-              <h1 class=" blockquote">{{ testimonial.testimonial }}</h1>
-              <p class="overview"><b>{{ testimonial.client }}</b>, {{ testimonial.client_role }}</p>
-            </div>
-            {% endfor %}
-
-
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
+  {% include client_testimonials.html %}
+  <!-- -->
 
   <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
 
