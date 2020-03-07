@@ -6,8 +6,7 @@ title: Turn Hurdles Into Opportunities By Understanding The RPA Challenges Facin
 pdf: ''
 image: "/assets/images/grayscale-photography-of-chairs-in-an-auditorium-2305084.jpg"
 categories:
-- SMB
-- RPA
+- AI
 feature_position: '0'
 date: 2018-04-04 08:00:00 -0400
 
