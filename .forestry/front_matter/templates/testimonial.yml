@@ -12,4 +12,5 @@ fields:
   name: testimonial
   label: testimonial
 pages:
+- _testimonials/bretgunderson.md
 - _testimonials/stephanie-tramicheck.md
