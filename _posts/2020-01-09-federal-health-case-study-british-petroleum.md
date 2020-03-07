@@ -1,12 +1,11 @@
 ---
 section: " Project"
 author: geoff
-date: 2020-01-09 03:00:00 -0500
+date: 2018-07-02 03:00:00 -0400
 title: 'Federal Health Case Study: British Petroleum'
 pdf: "/assets/images/BP Case Study - July 2017.pdf"
 image: "/assets/images/bp.png"
 categories:
-- Logistics
 - Case-Study
 
 ---
