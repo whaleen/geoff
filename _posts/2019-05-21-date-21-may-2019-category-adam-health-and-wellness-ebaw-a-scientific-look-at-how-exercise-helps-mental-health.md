@@ -1,8 +1,7 @@
 ---
 section: Blog
 author: geoff
-title: " Date: 21-MAY-2019 Category: ADAM Health and Wellness EBAW A Scientific Look
-  at How Exercise Helps Mental Health"
+title: A Scientific Look at How Exercise Helps Mental Health
 date: 2019-05-21 00:00:00 -0400
 feature_position: ''
 pdf: ''
