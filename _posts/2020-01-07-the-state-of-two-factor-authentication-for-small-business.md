@@ -6,8 +6,8 @@ title: The State of Two Factor Authentication For Small Business
 pdf: "/assets/images/Two_Factor_Authentication_E_Book.pdf"
 image: "/assets/images/2factor.jpeg"
 categories:
+- White-Paper
 - Tech
-- Report
 
 ---
 I created this eBook for Live Consulting, focusing on the current use of two factor authentication (2FA), the ways it is implemented, role in BYOD, and why few small businesses implement it.
