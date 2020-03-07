@@ -12,6 +12,7 @@ fields:
   name: testimonial
   label: testimonial
 pages:
+- _testimonials/Anuj-Saxena.md
 - _testimonials/Elyse-Savaki.md
 - _testimonials/bretgunderson.md
 - _testimonials/dylan-tweney.md
