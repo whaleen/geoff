@@ -6,7 +6,7 @@ title: 'Federal Health Case Study: Enmarket'
 pdf: "/assets/images/Enmarket-Case-Study.pdf"
 image: "/assets/images/enmarket.png"
 categories:
-- Case Study
+- Case-Study
 feature_position: ''
 
 ---
