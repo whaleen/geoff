@@ -1,12 +1,11 @@
 ---
 section: " Project"
 author: geoff
-date: 2020-01-07 03:00:00 -0500
+date: 2019-05-01 03:00:00 -0400
 title: 'Federal Health Case Study: Enmarket'
 pdf: "/assets/images/Enmarket-Case-Study.pdf"
 image: "/assets/images/enmarket.png"
 categories:
-- Logistics
 - Case-Study
 
 ---
