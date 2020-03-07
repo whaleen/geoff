@@ -7,7 +7,7 @@ pdf: ''
 image: "/assets/images/hero image.jpg"
 categories:
 - Business-Management
-feature_position: ''
+feature_position: '0'
 
 ---
 Picture your average customer. Think of the way they look, from the shoes and clothes they wear to the crow’s feet and forehead wrinkles (or lack thereof), and how they sigh with boredom or frustration before they find the solution that you offer. Take all of those marketing metrics you’ve drilled down into viable personas and give them a shape, a form.
