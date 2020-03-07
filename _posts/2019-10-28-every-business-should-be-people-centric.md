@@ -4,7 +4,7 @@ author: geoff
 date: 2019-10-28T10:00:00.000+00:00
 title: Every Business Should Be People-Centric
 pdf: ''
-image: "/assets/images/hero image.jpg"
+image: "/assets/images/hero heroes.jpg"
 categories:
 - Business-Management
 feature_position: '0'
