@@ -13,4 +13,5 @@ fields:
   label: testimonial
 pages:
 - _testimonials/bretgunderson.md
+- _testimonials/dylan-tweney.md
 - _testimonials/stephanie-tramicheck.md
