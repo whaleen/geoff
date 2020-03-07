@@ -7,7 +7,6 @@ image: "/assets/images/blue-abstract-painting-1568607.jpg"
 categories:
 - White-Paper
 - Marketing
-- Personalization
 date: 2014-07-10 08:00:00 -0400
 
 ---
