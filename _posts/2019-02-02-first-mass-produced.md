@@ -6,8 +6,6 @@ title: Does Your Business Want AI or RPA?
 author: geoff
 categories:
 - AI
-- RPA
-- SMB
 image: "/assets/images/silhouette-of-person-holding-glass-mason-jar-1274260.jpg"
 date: 2018-04-12 08:00:00 -0400
 
