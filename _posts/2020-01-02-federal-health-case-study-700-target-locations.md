@@ -1,12 +1,11 @@
 ---
 section: " Project"
 author: geoff
-date: 2020-01-02 03:00:00 -0500
+date: 2018-12-03 08:00:00 -0500
 title: 'Federal Health Case Study: 700 Target Locations'
 pdf: "/assets/images/Target-Case-Study.pdf"
 image: "/assets/images/target.jpeg"
 categories:
-- Logistics
 - Case-Study
 
 ---
