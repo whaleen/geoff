@@ -8,7 +8,7 @@ image: "/assets/images/grayscale-photography-of-chairs-in-an-auditorium-2305084.
 categories:
 - SMB
 - RPA
-feature_position: '3'
+feature_position: '0'
 date: 2018-04-04 08:00:00 -0400
 
 ---
