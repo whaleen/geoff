@@ -6,7 +6,6 @@ title: Every Business Should Be People-Centric
 pdf: ''
 image: "/assets/images/hero image.jpg"
 categories:
-- Articles
 - Business-Management
 feature_position: ''
 
