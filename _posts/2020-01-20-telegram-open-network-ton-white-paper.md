@@ -7,7 +7,7 @@ image: "/assets/images/telegram.jpeg"
 categories:
 - White-Paper
 - ICO
-feature_position: '4'
+feature_position: '0'
 date: 2020-02-10T08:00:00.000+00:00
 
 ---
