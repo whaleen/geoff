@@ -1,7 +1,7 @@
 ---
 section: " Project"
 author: geoff
-date: 2020-01-07 03:00:00 -0500
+date: 2019-08-10 08:00:00 -0400
 title: The State of Two Factor Authentication For Small Business
 pdf: "/assets/images/Two_Factor_Authentication_E_Book.pdf"
 image: "/assets/images/2factor.jpeg"
