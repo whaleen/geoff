@@ -7,7 +7,8 @@ categories:
 - Content-Development
 image: "/assets/images/people moving around.jpg"
 date: 2020-02-01T08:00:00.000+00:00
-feature_position: '2'
+feature_position: '1'
+
 ---
 Kings of coffee shops, queens of the stage, and jokers everywhere are keepers of an often undervalued business skill: storytelling. They use storytelling to keep their audience engaged and coming back for more.
 
@@ -17,7 +18,7 @@ Storytelling even can be more persuasive than purely logical arguments, accordin
 
 In my work with major analytics companies and divisions, storytelling has even emerged as a key differentiator that helps a candidate get hired. These branches need a storyteller who can weave complex information into a narrative that quickly presents insights to executive leadership. A good storyteller translates into better financial support, which in turn can yield more insightful business intelligence and a stronger return on investment.
 
-The good news for everyone is that telling an engaging story gets easy when you put the right pieces into place. Whether you’re deep in data or want a blog that gets customers to make a purchase, here are three important considerations that can turn your tales into gold.  
+The good news for everyone is that telling an engaging story gets easy when you put the right pieces into place. Whether you’re deep in data or want a blog that gets customers to make a purchase, here are three important considerations that can turn your tales into gold.
 
 ## Start With Your Lesson
 
@@ -37,7 +38,6 @@ Simply removing references to 2015 can extend your content’s usefulness to the
 
 Combining these three simple lessons can give you a better story and help you achieve goals from improved traffic and conversions to convincing your boss to fund your project, department, or ambition.
 
-### THE LAGNIAPPE LESSON
-Skip any part you find boring. Whether you’re presenting to a crowd, writing on a blog or tweeting out to the world, slow parts ruin stories. Cherry-pick your facts and descriptions to create quick, engaging content. It gets your audience to your takeaway faster and they’ll enjoy the experience that much more.
+### The Lagniappe Lesson
 
-This was cross posted on LinkedIn here.
+Skip any part you find boring. Whether you’re presenting to a crowd, writing on a blog or tweeting out to the world, slow parts ruin stories. Cherry-pick your facts and descriptions to create quick, engaging content. It gets your audience to your takeaway faster and they’ll enjoy the experience that much more.
