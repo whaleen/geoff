@@ -6,7 +6,8 @@ date: 2018-04-11 00:00:00 -0400
 feature_position: ''
 pdf: ''
 image: "/assets/images/ice-cream-cone-1274894_1920.jpg"
-categories: []
+categories:
+- Press-Release
 
 ---
 Made4net and IntegraSys Empower New England Ice Cream to Maximize Operations with Cutting-Edge Warehouse, Direct Store Delivery Support
