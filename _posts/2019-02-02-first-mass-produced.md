@@ -1,16 +1,15 @@
 ---
 section: Blog
-feature_position: 1
+feature_position: '2'
 layout: post
 title: Does Your Business Want AI or RPA?
 author: geoff
 categories:
-- Customer-Knowledge
 - AI
 - RPA
 - SMB
-- Blog
 image: "/assets/images/silhouette-of-person-holding-glass-mason-jar-1274260.jpg"
+date: 2020-02-03 03:00:00 -0500
 
 ---
 Business process automation is a multi-billion-dollar industry where new services crop up every day under the “automation” heading. Nearly 20% of U.S. enterprises use some form of this automation, and almost all refer to it as AI, but that’s leading some to complain that they aren’t getting access to all the miracles promised by smarter services.
