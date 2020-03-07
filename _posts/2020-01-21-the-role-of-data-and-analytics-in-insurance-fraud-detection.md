@@ -6,6 +6,7 @@ title: The Role Of Data And Analytics In Insurance Fraud Detection
 pdf: "/assets/images/5 -The Role Analytics in Insurance Fraud Detection.pdf"
 image: "/assets/images/computer-computer-keyboard-contemporary-display-257881.jpg"
 categories:
+- White-Paper
 - Analytics
 feature_position: ''
 
