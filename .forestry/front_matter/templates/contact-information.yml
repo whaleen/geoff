@@ -6,8 +6,8 @@ fields:
   type: text
   config:
     required: false
-  label: Company Name
-  description: Displays in header
+  label: Company Name in Header
+  description: Displays in header.
 - name: company_name_footer
   type: text
   config:
