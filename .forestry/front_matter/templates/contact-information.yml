@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Company Name
-  description: Displays in header and in footer
+  description: Displays in header
 - name: profile_image
   type: file
   config:
