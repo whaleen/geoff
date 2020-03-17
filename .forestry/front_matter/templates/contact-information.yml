@@ -2,6 +2,12 @@
 label: Contact Information
 hide_body: true
 fields:
+- name: company_name
+  type: text
+  config:
+    required: false
+  label: Company Name
+  description: Displays in header and in footer
 - name: profile_image
   type: file
   config:
