@@ -66,13 +66,15 @@ layout: default
 			<article class="article-post">
 				{{ content }}
 
+				{% if page.pdf == "" %}
+	 			{% else %}
 				<span class="small">
 					Please see the attached PDF:
 				</span>
 				<h2 class="display-5">
 					<a class="button" href="{{site.url}}{{page.pdf}}"><i class="far fa-file-pdf"></i> PDF </a>
 				</h2>
-
+	 			{% endif %}
 
 			</article>
 
