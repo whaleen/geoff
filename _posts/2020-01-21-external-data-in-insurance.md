@@ -1,7 +1,7 @@
 ---
 section: " Project"
 author: geoff
-date: 2013-01-01 03:00:00 -0500
+date: 2013-01-01 08:00:00 -0500
 title: External Data In Insurance
 pdf: "/assets/images/6 - External Data in Insurance.pdf"
 image: "/assets/images/abstract-architectural-design-architecture-building-136419.jpg"
