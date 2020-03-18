@@ -6,7 +6,8 @@ date: 2017-01-01 08:00:00 -0500
 feature_position: ''
 pdf: ''
 image: "/assets/images/emerson bearings.jpg"
-categories: []
+categories:
+- Case-Study
 
 ---
 _I created three case studies created for Emerson Bearings and we turned them into a single-page with strong CTAs designed to get people to "Speak to an expert." The page was created in 2017 and is still live and generating leads._
